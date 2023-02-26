@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+#blue-bar{
+    width: 1920px;
+    height: 80px;
+    background-color: deepskyblue;
+}
+
+#container{
+    margin: auto;
+    width: 1100px;
+}
+
+#nav-bar{
+    color: white;
+    background-color:deepskyblue;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    width: 500px;
+    color: white;
+    list-style-type: none;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+}
+
+a#city-1, a#city-2, a#city-3{
+    color: white;
+    text-decoration: none;
+}
+
+#mb-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
+    border-bottom: 2px solid black;
+    padding: 0px 15px 10px 15px;
+}
+
+#top-left{
+    font-size: x-large;
+}
+
+#city{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#top-right{
+    font-size: large;
+}
+
+#mb-bottom{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#weather-box{
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+#weather-img{
+    height: 200px;
+    border-radius: 70%;
+    padding: 20px;
+}
+
+h3{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#temperatures{
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.high{
+    color: red;
+}
+
+.low{
+    color: blue;
+}
+
+#cookie-footer{
+    width: 1060px;
+    position: fixed;
+    padding: 15px;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-left{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+p{
+    font-size: large;
+}
+
+#accept{
+    font-size: medium;
+    width: 80px;
+    height: 35px;
+    border: 2px solid black;
+    background-color:darkturquoise;
+    box-shadow: 2px 2px 0 1px;
+}

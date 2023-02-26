@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather</title>
+        <link rel="stylesheet" href="Dojo weather.css">
+    </head>
+    <body>
+        <div id="blue-bar">
+        <div id="container">
+            <div id="nav-bar">
+                <h1 id="title">DojoWeather</h1>
+                <ul>
+                    <li><a name="Burbank" onclick="cityWeather(this)" id="city-1" href="#">Burbank</a></li>
+                    <li><a name="Chicago" onclick="cityWeather(this)" id="city-2" href="#">Chicago</a></li>
+                    <li><a name="Dallas" onclick="cityWeather(this)" id="city-3" href="#">Dallas</a></li>
+                </ul>
+            </div>
+            <div id="main-body">
+                <div id="mb-top">
+                    <div id="top-left">
+                        <span id="city">San Jose</span>
+                    </div>
+                    <div id="top-right">
+                        <p>show temperature in 
+                            <select id="degrees" onchange="convert(this)">
+                                <option value="celcius">°C</option>
+                                <option value="fahrenheit">°F</option>
+                            </select>
+                        </p>
+                    </div>
+                </div>
+                <div id="mb-bottom">
+                    <div id="weather-box">
+                        <h2 id="day">Today</h2>
+                        <img src="Images\some_rain.png" alt="rainy" id="weather-img">
+                        <h3>some rain</h3>
+                        <div id="temperatures">
+                            <span class="high" id="temp1">24°</span>
+                            <span class="low" id="temp2">18°</span>
+                        </div>
+                    </div>
+                    <div id="weather-box">
+                        <h2 id="day">Tomorrow</h2>
+                        <img src="Images\some_sun.png" alt="sunny" id="weather-img">
+                        <h3>some sun</h3>
+                        <div id="temperatures">
+                            <span class="high" id="temp3">27°</span>
+                            <span class="low" id="temp4">19°</span>
+                        </div>
+                    </div>
+                    <div id="weather-box">
+                        <h2 id="day">Friday</h2>
+                        <img src="Images\some_clouds.png" alt="cloudy" id="weather-img">
+                        <h3>some clouds</h3>
+                        <div id="temperatures">
+                            <span class="high" id="temp5">21°</span>
+                            <span class="low" id="temp6">16°</span>
+                        </div>
+                    </div>
+                    <div id="weather-box">
+                        <h2 id="day">Saturday</h2>
+                        <img src="Images\some_sun.png" alt="sunny" id="weather-img">
+                        <h3>some sun</h3>
+                        <div id="temperatures">
+                            <span class="high" id="temp7">26°</span>
+                            <span class="low" id="temp8">21°<span>
+                        </div>
+                    </div>
+                </div>
+                <div id="cookie-footer">
+                    <div id="footer-left">
+                        <img src="Images/cookie.png" alt="cookie">
+                        <div id="cookie-text">
+                            <h2>Stop! Cookie Time</h2>
+                            <p>We use cookies (sadly not the edibles ones) to personalize<br>
+                            content and ads, to provide social media features and to<br>
+                            analyze our traffic. <a href="#">Read more...</a></p>
+                        </div>
+                    </div>
+                    <button id="accept" onclick="accept()">I Accept</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="Dojo weather.js"></script>
+    </body>
+</html>
